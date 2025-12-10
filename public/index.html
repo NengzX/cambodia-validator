@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NRST Number Validation - Cambodia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🇰🇭 NRST NUMBER VALIDATION</h1>
+            <p class="subtitle">Telecommunications Regulator of Cambodia Compliant System</p>
+        </div>
+
+        <div class="input-section">
+            <div class="input-group">
+                <label for="phoneInput">Enter Cambodia Phone Number:</label>
+                <div class="phone-input-container">
+                    <div class="country-code">+855</div>
+                    <input type="tel" id="phoneInput" placeholder="12345678" maxlength="9">
+                </div>
+                <div class="examples">Examples: +85512345678, 012345678, 12345678</div>
+            </div>
+
+            <div class="button-group">
+                <button id="validateBtn" class="btn-primary">🔍 Validate Number</button>
+                <button id="clearBtn" class="btn-secondary">🔄 Clear</button>
+            </div>
+
+            <div class="ip-info">
+                <div class="ip-label">Your IP Address:</div>
+                <div class="ip-value" id="ipAddress">Detecting...</div>
+            </div>
+        </div>
+
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p>Validating NRST compliance...</p>
+        </div>
+
+        <div class="error-message" id="errorMessage"></div>
+
+        <div class="results-section" id="resultsSection"></div>
+
+        <div class="footer">
+            <p>© 2024 Cambodia NRST Validation System | TRC Compliant | MCC: 456 | Country Code: KH</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

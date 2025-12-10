@@ -1,0 +1,15 @@
+{
+  "name": "nrst-validation-cambodia",
+  "version": "1.0.0",
+  "description": "NRST Phone Number Validation System for Cambodia",
+  "main": "api/validate.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {},
+  "engines": { "node": ">=18.x" },
+  "keywords": ["nrst", "cambodia", "phone", "validation", "trc"],
+  "author": "NRST Validation System",
+  "license": "MIT"
+}
